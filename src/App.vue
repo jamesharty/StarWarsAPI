@@ -1,15 +1,15 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <img alt="Star Wars Logo" src="./assets/swlogo.png">
+  <starwarsAPI msg="Welcome to The Star Wars API App"/>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import starwarsAPI from './components/starwarsAPI.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    starwarsAPI
   }
 }
 </script>
@@ -20,7 +20,9 @@ export default {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
-  color: #2c3e50;
+  color: white;
   margin-top: 60px;
+  background: black;
+  margin: 0;
 }
 </style>
